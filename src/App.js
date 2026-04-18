@@ -8,7 +8,9 @@ import Counter from './components/counter';
 
 function App() {
   return (
-    <Counter/>
+    // <Counter/>
+    // <Greet name="Anirudh"/>
+    <Welcome name="Kittu"/>
   );
 }
 
