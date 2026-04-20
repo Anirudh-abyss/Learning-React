@@ -8,6 +8,7 @@ import Counter from './components/counter';
 import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/parentComponent';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
     // <Welcome name="Kittu"/>
     // <FunctionClick/>
     // <ClassClick/>
-    <EventBind/>
+    // <EventBind/>
+    <ParentComponent/>
   );
 }
 
