@@ -5,12 +5,16 @@ import Welcome from './components/welcome';
 import Hello from './Learning JSX';
 import counter from './components/counter';
 import Counter from './components/counter';
+import FunctionClick from './components/functionClick';
+import ClassClick from './components/classClick';
 
 function App() {
   return (
     // <Counter/>
     // <Greet name="Anirudh"/>
-    <Welcome name="Kittu"/>
+    // <Welcome name="Kittu"/>
+    <FunctionClick/>
+    <ClassClick/>
   );
 }
 
