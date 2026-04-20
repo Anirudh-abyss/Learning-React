@@ -7,14 +7,16 @@ import counter from './components/counter';
 import Counter from './components/counter';
 import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     // <Counter/>
     // <Greet name="Anirudh"/>
     // <Welcome name="Kittu"/>
-    <FunctionClick/>
-    <ClassClick/>
+    // <FunctionClick/>
+    // <ClassClick/>
+    <EventBind/>
   );
 }
 
