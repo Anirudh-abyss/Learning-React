@@ -9,6 +9,7 @@ import FunctionClick from './components/functionClick';
 import ClassClick from './components/classClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/parentComponent';
+import ConditionalRending from './components/ConditionalRendering';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
     // <FunctionClick/>
     // <ClassClick/>
     // <EventBind/>
-    <ParentComponent/>
+    // <ParentComponent/>
+    <ConditionalRending/>
   );
 }
 
