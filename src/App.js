@@ -12,6 +12,7 @@ import ParentComponent from './components/parentComponent';
 import ConditionalRending from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
 import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     // <ParentComponent/>
     // <ConditionalRending/>
     // <ListRendering/>
-    <Stylesheet primary ={true} />
+    // <Stylesheet primary ={true} />
+    <Inline/>
   );
 }
 
