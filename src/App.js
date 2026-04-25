@@ -13,7 +13,7 @@ import ConditionalRending from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
-
+import Form from './components/Form';
 function App() {
   return (
     // <Counter/>
@@ -26,7 +26,9 @@ function App() {
     // <ConditionalRending/>
     // <ListRendering/>
     // <Stylesheet primary ={true} />
-    <Inline/>
+    // <Inline/>
+    // <h1 className='style.success'> Success</h1>
+    <Form/>
   );
 }
 
