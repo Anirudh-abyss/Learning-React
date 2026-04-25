@@ -11,6 +11,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/parentComponent';
 import ConditionalRending from './components/ConditionalRendering';
 import ListRendering from './components/ListRendering';
+import Stylesheet from './components/Stylesheet';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
     // <EventBind/>
     // <ParentComponent/>
     // <ConditionalRending/>
-    <ListRendering/>
+    // <ListRendering/>
+    <Stylesheet primary ={true} />
   );
 }
 
