@@ -14,6 +14,8 @@ import ListRendering from './components/ListRendering';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
+import Pure from './components/pureComp';
+import Parent from './components/parentComp';
 function App() {
   return (
     // <Counter/>
@@ -28,7 +30,8 @@ function App() {
     // <Stylesheet primary ={true} />
     // <Inline/>
     // <h1 className='style.success'> Success</h1>
-    <Form/>
+    // <Form/>
+    <Parent/>
   );
 }
 
