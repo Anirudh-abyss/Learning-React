@@ -16,6 +16,7 @@ import Inline from './components/Inline';
 import Form from './components/Form';
 import Pure from './components/pureComp';
 import Parent from './components/parentComp';
+import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     // <Counter/>
@@ -31,7 +32,8 @@ function App() {
     // <Inline/>
     // <h1 className='style.success'> Success</h1>
     // <Form/>
-    <Parent/>
+    // <Parent/>
+    <RefsDemo/>
   );
 }
 
