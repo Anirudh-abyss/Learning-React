@@ -17,6 +17,7 @@ import Form from './components/Form';
 import Pure from './components/pureComp';
 import Parent from './components/parentComp';
 import RefsDemo from './components/RefsDemo';
+import PortalDemo from './components/Portal-Demo';
 function App() {
   return (
     // <Counter/>
@@ -33,7 +34,8 @@ function App() {
     // <h1 className='style.success'> Success</h1>
     // <Form/>
     // <Parent/>
-    <RefsDemo/>
+    // <RefsDemo/>
+    <PortalDemo/>
   );
 }
 
