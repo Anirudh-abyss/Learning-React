@@ -20,6 +20,10 @@ import RefsDemo from './components/RefsDemo';
 import PortalDemo from './components/Portal-Demo';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import OnHoverTwo from './components/OnHoverTwo';
+import User from './components/User';
+import CounterTwo from './components/CounterTwo';
 function App() {
   return (
     // <Counter/>
@@ -39,10 +43,26 @@ function App() {
     // <RefsDemo/>
     // <PortalDemo/>
     // <Hero HeroName={'superman'}/>
-    <ErrorBoundary>
-        <Hero HeroName={'joker'}/>
-    </ErrorBoundary>
-    
+    // <ErrorBoundary>
+    //     <Hero HeroName={'joker'}/>
+    // </ErrorBoundary>
+    <div>
+      {/* <ClickCounterTwo/>
+      <OnHoverTwo/>
+      <User name={(isLoggedIn)=>isLoggedIn ? 'Anirudh':'Guest'}/> */}
+
+      <CounterTwo>
+        {(count, incrementCount)=>{
+          <ClickCounterTwo count ={count} incrementCount={incrementCount}/>
+        }}
+      </CounterTwo>
+      <CounterTwo>
+        {(count, incrementCount)=>{
+          <OnHoverTwo count ={count} incrementCount={incrementCount}/>
+        }}
+      </CounterTwo>
+
+    </div>
   );
 }
 
