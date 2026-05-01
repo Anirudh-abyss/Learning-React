@@ -18,6 +18,8 @@ import Pure from './components/pureComp';
 import Parent from './components/parentComp';
 import RefsDemo from './components/RefsDemo';
 import PortalDemo from './components/Portal-Demo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
     // <Counter/>
@@ -35,7 +37,12 @@ function App() {
     // <Form/>
     // <Parent/>
     // <RefsDemo/>
-    <PortalDemo/>
+    // <PortalDemo/>
+    // <Hero HeroName={'superman'}/>
+    <ErrorBoundary>
+        <Hero HeroName={'joker'}/>
+    </ErrorBoundary>
+    
   );
 }
 
